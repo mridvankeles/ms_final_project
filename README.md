@@ -1,17 +1,13 @@
-# Accurate Polygonal Mapping of Buildings in Satellite Imagery [[arXiv]](https://arxiv.org/abs/2208.00609)
-### Bowen Xu*, Jiakun Xu*, Nan Xue† and Gui-Song Xia† 
-#### (* indicates equal contributions, and † indicates the corresponding authors)
----
-![image](figures/teaser_git.png)
-## Highlights
-- We address the **mask reversibility** issue of polygonal mapping of buildings 
-by proposing the **HiSup**, which takes the hierarchical supervision signals 
-of vertices, boundaries and masks to guide the convolutional neural network to learn in a shape-aware fashion.
-- We present a key component of aggregating the embedding of attraction fields into the learning of high-level masks and the bottom-level vertices.
-- We set several new state-of-the-art performances on the challenging AICrowd benchmark in terms of AP and Boundary AP
-by learning semantically-accurate and geometrically-precise masks.
-## Installation
+# HiSup with Modular Clustering Extensions
+
+## Core Pipeline Architecture
+```python
+
+All of this repository can be run on running main_clustering.py by setting up its configs.
+# main_clustering.py
 Ubuntu-18.04, CUDA 11.0, pytorch1.7/1.8, GCC 7.3
+
+Needs to install requirements.txt and needs hisup as trained and evaluated versions insde of it.
 ```
 conda create -n hisup python=3.7
 conda activate hisup

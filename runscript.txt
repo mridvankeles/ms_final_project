@@ -1,0 +1,1 @@
+python scripts/train.py --config-file config-files/crowdai-small_hrnet48.yaml

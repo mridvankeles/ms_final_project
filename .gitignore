@@ -1,0 +1,15 @@
+.history/
+__pycache__/
+
+build/*
+.vscode/*
+**/*.DS_Store
+exp/*
+**/pretrained_models/*
+
+**/*.pyc
+**/*.so
+
+figures/*
+data/*
+outputs/*

@@ -1,4 +1,15 @@
-# HiSup with Modular Clustering Extensions
+## Enhanced HiSup: Modular Polygonal Building Mapping with Clustering [arXiv]
+This repository extends the original HiSup architecture with enhanced modular control and clustering strategies for building segmentation in satellite imagery.
+
+Key Modifications:
+
+Centralized control through main.clustering.py for all pipeline operations
+
+Added clustering strategies for improved region grouping
+
+Updated requirements for extended functionality
+
+Modular component design for flexible experimentation
 
 ## Core Pipeline Architecture
 ```python
